@@ -7,12 +7,12 @@ spring:
     active: dev
 zuul:
   routes:
-    api-index:
-      path: /api/index/**
-      serviceId: index
-    api-comment:
-      path: /api/comment/**
-      serviceId: comment
+    api-logo:
+      path: /api/logo/**
+      serviceId: logo
+#    api-comment:
+#      path: /api/comment/**
+#      serviceId: comment
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000

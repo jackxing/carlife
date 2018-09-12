@@ -8,7 +8,7 @@ spring:
 zuul:
   routes:
     api-logo:
-      path: /api/logo/**
+      path: /logo/**
       serviceId: logo
 #    api-comment:
 #      path: /api/comment/**

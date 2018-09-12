@@ -5,3 +5,13 @@ spring:
     name: logo
   profiles:
     active: dev
+  #设定ftl文件路径
+  freemarker:
+    templateLoaderPath: classpath:/templates/
+  #设定静态文件路径，js,css等
+  mvc:
+    staticPathPattern: /static/**
+    
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.tuziniu.logo.pojo

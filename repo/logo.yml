@@ -12,6 +12,3 @@ spring:
   mvc:
     staticPathPattern: /static/**
     
-mybatis:
-  mapperLocations: classpath:mapper/*.xml
-  typeAliasesPackage: com.tuziniu.logo.pojo

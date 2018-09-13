@@ -8,11 +8,11 @@ spring:
 zuul:
   routes:
     api-logo:
-      path: /logoapi/**
+      path: /logo/**
       serviceId: logo
-#    api-comment:
-#      path: /api/comment/**
-#      serviceId: comment
+    api-admin:
+      path: /admin/**
+      serviceId: admin
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000

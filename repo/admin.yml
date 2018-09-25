@@ -11,5 +11,3 @@ spring:
   #设定静态文件路径，js,css等
   mvc:
     staticPathPattern: /static/**
-  resources:
-    staticLocations: file:D:/Developer/upload/

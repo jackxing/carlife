@@ -13,4 +13,4 @@ spring:
     staticPathPattern: /static/**
 file:
   staticAccessPath: /uploadfile/**
-  uploadFolder: D:/Develope/upload/
+  uploadFolder: D://Develope/upload/

@@ -12,6 +12,6 @@ spring:
   mvc:
     staticPathPattern: /static/**
 file:
-  staticAccessPath: /api/file/**
+  staticAccessPath: /uploadfile/**
   uploadFolder: D://Develope/upload
  
